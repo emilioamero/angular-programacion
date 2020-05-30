@@ -14,7 +14,7 @@ import { RouterModule, Route } from "@angular/router";
 
 /*Constantes de Rutas y Navegacion*/
 const routes: Route[] = [
-  {path: 'principal', component: PrincipalComponent},
+  {path: '', component: PrincipalComponent},
 
 ];
 
