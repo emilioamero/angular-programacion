@@ -1,1 +1,15 @@
 /* Add application styles & imports to this file! */
+
+body{
+
+ background-image: url("https://image.freepik.com/vector-gratis/fondo-patron-perro_1273-167.jpg");
+
+  margin: auto;
+}
+ /*bordecard y botoneslilas y botoneslilas:hover*/
+
+ .bordecard {
+    border-color: rgb(182, 34, 34) !important;
+  }
+
+
