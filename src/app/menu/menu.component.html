@@ -1,0 +1,220 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="#">Little Paws </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+
+
+
+        <div class="dropdown show">
+            <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="margin-right: 5px;">
+              Mascotas
+            </a>
+
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+              <a class="dropdown-item" routerLink="./busquedamascota">Busqueda</a>
+             <a class="dropdown-item" routerLink="/mascota">Fichas</a>
+              <a class="dropdown-item" href="#">Caniles</a>
+              <a class="dropdown-item" href="#">Colores</a>
+              <a class="dropdown-item" href="#">Estado Animal</a>
+              <a class="dropdown-item" href="#">Historial</a>
+              <a class="dropdown-item" href="#">Razas</a>
+              <a class="dropdown-item" href="#">Tamaño</a>
+              <a class="dropdown-item" href="#">Tipos</a>
+              <a class="dropdown-item" href="#">Ubicación</a>
+            </div>
+          </div>
+
+
+
+
+<!--
+
+        <li class="nav-item active">
+            <a class="nav-link" routerLink="/informaciones">Mascotas <span class="sr-only">(current)</span></a>
+          </li>
+           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Fichas</a>
+              <a class="dropdown-item" href="#">Caniles</a>
+              <a class="dropdown-item" href="#">Colores</a>
+              <a class="dropdown-item" href="#">Estado Animal</a>
+              <a class="dropdown-item" href="#">Historial</a>
+              <a class="dropdown-item" href="#">Razas</a>
+              <a class="dropdown-item" href="#">Tamaño</a>
+              <a class="dropdown-item" href="#">Tipos</a>
+              <a class="dropdown-item" href="#">Ubicación</a>
+            </div>
+
+-->
+<!--
+            <li class="nav-item active">
+                <a class="nav-link" routerLink="/informaciones">Adopción <span class="sr-only">(current)</span></a>
+              </li>
+               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Perros en adopción</a>
+                  <a class="dropdown-item" href="#">Gatos en adopción</a>
+                  <a class="dropdown-item" href="#">Otras mascostas</a>
+                  <a class="dropdown-item" href="#">Estado Animal</a>
+                </div>
+
+-->
+
+
+          <div class="dropdown show">
+            <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="margin-right: 5px;">
+              Adopción
+            </a>
+
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+              <a class="dropdown-item" href="#">Perros en adopción</a>
+              <a class="dropdown-item" href="#">Gatos en adopción</a>
+              <a class="dropdown-item" href="#">Otras mascotas</a>
+            </div>
+          </div>
+
+<!--dropdown-toggle (desplegable)-->
+
+          <div class="dropdown show">
+            <a class="btn btn-secondary dropdown-toggle" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Contacto
+            </a>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+              <a class="dropdown-item" routerLink="/busquedacontacto">Búsqueda</a>
+              <a class="dropdown-item" routerLink="/contacto">Ficha</a>
+            </div>
+          </div>
+
+
+          <div class="dropdown show">
+            <a class="btn btn-secondary " routerLink="/informaciones" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Información
+            </a>
+          </div>
+
+
+<!--
+
+      <li class="nav-item active">
+        <a class="nav-link" routerLink="/contacto">Contacto <span class="sr-only">(current)</span></a>
+      </li>
+
+-->
+<!--
+      <li class="nav-item active">
+        <a class="nav-link" routerLink="/informaciones">Informaciónes <span class="sr-only">(current)</span></a>
+      </li>
+-->
+      <!--
+       <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Cuidados</a>
+          <a class="dropdown-item" href="#">Alimentación</a>
+          <a class="dropdown-item" href="#">Vacunación</a>
+          <a class="dropdown-item" href="#">Enfermedades</a>
+        </div>
+        -->
+
+
+
+
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Buscar">
+      <button class="btn botoneslilas my-2 my-sm-0" type="submit">Buscar</button>
+    </form>
+  </div>
+</nav>
+
+
+
+
+<!--
+
+<nav id="sidebar">
+    <div id="dismiss">
+        <i class="fas fa-arrow-left"></i>
+    </div>
+
+    <div class="sidebar-header">
+        <h3>Little Paws (logo)</h3>
+    </div>
+
+    <ul class="list-unstyled components">
+        <p>Menú</p>
+        <hr>
+        <li>
+            <a href="#mascotaMenu" data-toggle="collapse" aria-expanded="false"> <strong>Mascota</strong> </a>
+            <ul class="collapse list-unstyled" id="mascotaMenu">
+                <li>
+                    <a routerLink="/mascota">Ficha</a>
+                </li>
+                <li>
+                    <a href="#">Caniles</a>
+                </li>
+                <li>
+                    <a href="#">Colores</a>
+                </li>
+                <li>
+                    <a href="#">Historial</a>
+                </li>
+                <li>
+                    <a href="#">Raza</a>
+                </li>
+                <li>
+                    <a href="#">Tipo</a>
+                </li>
+                <li>
+                    <a href="#">Ubicación</a>
+                </li>
+            </ul>
+        </li>
+
+
+        <li>
+            <a href="#homeSubmen" data-toggle="collapse" aria-expanded="false"><strong>Socios</strong></a>
+            <ul class="collapse list-unstyled" id="homeSubmen">
+                <li>
+                    <a href="#">Ficha</a>
+                </li>
+                <li>
+                    <a href="#">Cuotas</a>
+                </li>
+                <li>
+                    <a href="#">Home 3</a>
+                </li>
+            </ul>
+        </li>
+
+
+        <li>
+            <a href="#homeSubmen" data-toggle="collapse" aria-expanded="false"><strong>Seguimiento</strong></a>
+            <ul class="collapse list-unstyled" id="homeSubmen">
+                <li>
+                    <a href="#">Adopcion</a>
+                </li>
+                <li>
+                    <a href="#">Cuotas</a>
+                </li>
+                <li>
+                    <a href="#">Home 3</a>
+                </li>
+            </ul>
+        </li>
+
+
+
+
+
+    </ul>
+    <ul class="list-unstyled CTAs">
+        <li>
+            <a href="" class="download">Perfil</a>
+        </li>
+        <li>
+            <a href="" class="article">Cerrar Sesion</a>
+        </li>
+    </ul>
+</nav>
+-->
