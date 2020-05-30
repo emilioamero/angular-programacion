@@ -10,7 +10,7 @@ import { PrincipalComponent } from './principal/principal.component';
 import { RouterModule, Route } from "@angular/router";
 
 
-
+/*https://proyectoprog3.stackblitz.io/*/
 
 /*Constantes de Rutas y Navegacion*/
 const routes: Route[] = [
