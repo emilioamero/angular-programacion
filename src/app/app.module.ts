@@ -11,6 +11,7 @@ import { RouterModule, Route } from "@angular/router";
 import { FooterComponent } from './footer/footer.component';
 import { ContactoComponent } from './contacto/contacto.component';
 import { InformacionComponent } from './informacion/informacion.component';
+import { MascotasComponent } from './mascotas/mascotas.component';
 
 
 
@@ -18,13 +19,13 @@ import { InformacionComponent } from './informacion/informacion.component';
 const routes: Route[] = [
   {path: '', component: PrincipalComponent},
   {path: 'contacto', component: ContactoComponent},
-  {path: 'info', component: InformacionComponent}
-
+  {path: 'info', component: InformacionComponent},
+    {path: 'mascota', component: MascotasComponent}
 ];
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule,RouterModule.forRoot(routes) ],
-  declarations: [ AppComponent, HelloComponent, MenuComponent, PrincipalComponent, FooterComponent, ContactoComponent, InformacionComponent ],
+  declarations: [ AppComponent, HelloComponent, MenuComponent, PrincipalComponent, FooterComponent, ContactoComponent, InformacionComponent, MascotasComponent ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
