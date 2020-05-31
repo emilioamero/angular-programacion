@@ -1,5 +1,20 @@
 /* Add application styles & imports to this file! */
 
+.btncolor {
+  color: #fff  !important;
+  background-color: #6e1217  !important;
+  border-color: #6e1217   !important;
+}
+
+.btncolor:hover {
+  color: #fff !important;
+  background-color: #d16051 !important;
+  border-color: #d16051  !important;
+}
+
+
+
+
 body{
   
  background-image: url("https://image.freepik.com/vector-gratis/fondo-patron-perro_1273-167.jpg");
@@ -23,6 +38,10 @@ body{
 
 }
 
+a{
+
+  margin-right: 10px;
+}
 
 
 /* Shutter Out Horizontal */

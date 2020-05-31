@@ -9,19 +9,20 @@ import { PrincipalComponent } from './principal/principal.component';
 /*Enrutadores de Navegacion*/
 import { RouterModule, Route } from "@angular/router";
 import { FooterComponent } from './footer/footer.component';
+import { ContactoComponent } from './contacto/contacto.component';
 
 
-/*https://proyectoprog3.stackblitz.io/*/
 
 /*Constantes de Rutas y Navegacion*/
 const routes: Route[] = [
   {path: '', component: PrincipalComponent},
+  {path: 'contacto', component: ContactoComponent}
 
 ];
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule,RouterModule.forRoot(routes) ],
-  declarations: [ AppComponent, HelloComponent, MenuComponent, PrincipalComponent, FooterComponent ],
+  declarations: [ AppComponent, HelloComponent, MenuComponent, PrincipalComponent, FooterComponent, ContactoComponent ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
