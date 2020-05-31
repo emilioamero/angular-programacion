@@ -8,6 +8,7 @@ import { MenuComponent } from './menu/menu.component';
 import { PrincipalComponent } from './principal/principal.component';
 /*Enrutadores de Navegacion*/
 import { RouterModule, Route } from "@angular/router";
+import { FooterComponent } from './footer/footer.component';
 
 
 /*https://proyectoprog3.stackblitz.io/*/
@@ -20,7 +21,7 @@ const routes: Route[] = [
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule,RouterModule.forRoot(routes) ],
-  declarations: [ AppComponent, HelloComponent, MenuComponent, PrincipalComponent ],
+  declarations: [ AppComponent, HelloComponent, MenuComponent, PrincipalComponent, FooterComponent ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
